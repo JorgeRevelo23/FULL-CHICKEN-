@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full Chicken</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+
+<body>
+  <!--?INICIO DEL MENU DE NAVEGACION-->
+  <nav class="navbar bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="#" width="35" height="28" class="d-inline-block align-text-top" />
+        FULL CHICKEN
+      </a>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html" style="color: black">INICIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nosotros.html" style="color: black">SOBRE NOSOTROS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="promociones.html" style="color: black">COMBOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html" style="color: black">MENU INDIVIDUAL</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://wa.me/+593978935589?text=Hola, tengo una consulta" target="blank"
+            onclick="return confirmar()" style="color: black">CONTACTANOS</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--FIN DEL MENU DE NAVEGACION-->
+
+  <!-- INICIO CONTAINER SLIDER-->
+  <div class="container text-center" style="background-color: #d68739">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2750">
+          <img src="img/full chicken.jpg" class="d-block w-100" />
+        </div>
+        <div class="carousel-item" data-bs-interval="2750">
+          <img src="img/full medio.jpg" class="d-block w-100" alt="full medio" />
+        </div>
+        <div class="carousel-item" data-bs-interval="2750">
+          <img src="img/full cuarto.jpg" class="d-block w-100" alt="full cuarto" />
+        </div>
+        <div class="carousel-item" data-bs-interval="2750">
+          <img src="img/full colorado.jpeg" class="d-block w-100" alt="full cuarto" />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!--FIN CONTAINER SLIDER-->
+  <div class="container text-center" style="background-color: #99b02b">
+    <h1>Siempre FULL para ti..!!</h1>
+    <video src="img/video2.mp4" controls width="50%" height="auto" justify-content: center></video>
+  </div>
+
+  <div class="container text-center" style="background-color: #d68739">
+    <div class="row" style="padding: 10px">
+      <div class="col">
+        <h4>Menu</h4>
+        <img src="img/menu_icon.png" width="100px" height="100px" />
+        <br />
+        <p>Escoje tu Full Chicken</p>
+      </div>
+
+      <div class="col">
+        <h4>Promociones</h4>
+        <img src="img/menu_icon2.webp" width="100px" height="100px" />
+        <br />
+
+        <p>Full Promociones</p>
+      </div>
+
+      <div class="col">
+        <h4>Delivery</h4>
+        <img src="img/delivery_icon.webp" width="100px" height="100px" />
+        <br />
+        <p>Full Domicilio</p>
+      </div>
+    </div>
+  </div>
+  <!--FORMULARIO TRABAJA CON NOSOTROS-->
+  <div class="container text-center">
+    <div class="row"></div>
+    <div class="row">
+      <div class="col" style="background-color: #99b02b; color: white">
+        <div class="mb-3">
+          <h2 style="color: black">Trabaja con Nosotros</h2>
+          <label for="exampleFormControlInput1" class="form-label">Email
+          </label>
+          <input type="email" class="form-control" id="exampleFormControlInput1"
+            placeholder="contacto@fullchicken.com" />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Tu mensaje aqui</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="col-12">
+          <button type="button" class="btn btn-outline-primary" style="color: white; border-color: white">
+            Enviar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FOOTER-Container de Fila con Direccion-->   
+  <footer>
+    <div class="container text-center" style="background-color: #eb1d36 ">
+      <div class="row">
+        <div class="col" style="color: white">
+          Calle Carlos Mantilla y Doral sector (Calderon)
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
